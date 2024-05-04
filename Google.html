@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+    .container {
+        max-width: 800px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .google-logo {
+        width: 100px;
+        height: auto;
+        margin: 0 auto 20px;
+    }
+    .search-bar {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+        outline: none;
+    }
+    .search-button {
+        padding: 10px 20px;
+        background-color: #4285f4;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .search-button:hover {
+        background-color: #1a73e8;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <input type="text" name="q" class="search-bar" placeholder=""><br><br>
+            <input type="submit" value="Google Search" class="search-button">
+            <input type="text" value="" class="search-button">
+
+        </form>
+    </div>
+</body>
+</html>
